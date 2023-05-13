@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Work+Sans:wght@100;300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+.contenedorNav {
+    background-color: #353a40;
+    padding: 1.2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.contenedorLogo {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorLogo img {
+    width: 150px;
+    object-fit: cover;
+}
+
+.contenedorLogo h2 {
+    color: white;
+}
+
+.navegacion ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.listaNav {
+    flex-direction: column;
+}
+
+.linkNav {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #999B9F;
+}
+
+.navActual {
+    color: white;
+}
+
+.navTickets {
+    color: #26A741
+}
+
+.contenedorConferencia {
+    height: 100vh;
+    background: linear-gradient(to right, #0000009c, #0000009c), url("../assets/img/ba1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hijoConferencia {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hijoConferencia h1 {
+    color: white;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.textoConferencia {
+    margin-top: 1rem;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.btnHeader {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnOrador {
+    padding: .5rem .7rem;
+    background-color: transparent;
+    border: 1px solid #f7f7f7;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 21px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btnTickets {
+    margin-left: .8rem;
+    padding: .5rem .7rem;
+    background-color: #29a745;
+    border: 1px solid #29a745;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 21px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sectionOradores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sectionOradores h2 {
+    height: 10%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 530;
+}
+
+.sectionOradores .spanOradores {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.padreCards {
+    width: 100vw;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    width: 80vw;
+    border: 2px solid #E3E3E3;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenCard {
+    width: 100%;
+    height: 100%
+}
+
+.cardBody {
+    width: 80%;
+    padding: 20px 0;
+}
+
+
+.cardBody h5 {
+    padding: 2px 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.Js {
+    background-color: #FEC307;
+}
+
+.React {
+    background-color: #17A2B8;
+    color: white;
+}
+
+.Negocios {
+    background-color: #6D747E;
+    color: white;
+}
+
+.Startups {
+    background-color: #DC3546;
+    color: white;
+}
+
+.cardBody h3 {
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.contenedorLyG {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.honolulu {
+    border: 1px solid white;
+}
+
+
+.contHonolulu {
+    padding: 1rem;
+    border: 1px solid white;
+    color: white;
+    background-color: #353a40;
+    line-height: 1.5rem;
+}
+
+
+.contHonolulu h2 {
+    margin-bottom: 1rem;
+}
+
+.contHonolulu a {
+    margin-top: 1rem;
+    padding: 0.3rem;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #f7f7f7;
+    border-radius: 6px;
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.secForm h2 {
+    height: 10%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 530;
+}
+
+.secForm span {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.secForm h3 {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.form {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs input {
+    width: 48%;
+    margin: 0.7rem 0rem;
+    padding: 0.2rem;
+}
+
+.textarea {
+    width: 65%;
+}
+
+.textarea textarea {
+    width: 100%;
+}
+
+.contP {
+    width: 65%;
+}
+
+.form p {
+    margin: 0.5rem 0rem;
+    align-self: flex-start;
+}
+
+.submit {
+    width: 65%;
+    padding: 10px 15px;
+    background-color: #96C93E;
+    color: #ffffff;
+    border: 1px solid #96C93E;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.footer {
+    width: 100%;
+    height: 30vh;
+    background-image: linear-gradient(to right top, #1d3744, #1d3e4f, #1d445a, #1d4b65, #1d5271);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        height: 100vh;
+    }
+
+    .contenedorNav {
+        height: 12%;
+        flex-direction: row;
+        align-items: normal;
+    }
+
+    .contenedorLogo {
+        margin-left: 0;
+        margin-bottom: 0rem;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .listaNav {
+        flex-direction: row;
+    }
+
+    .linkNav {
+        padding-left: 1.3rem;
+    }
+
+    .contenedorConferencia {
+        height: 88%;
+        justify-content: flex-end;
+    }
+
+    .hijoConferencia {
+        width: 50%;
+        height: 50%;
+        padding: 0 5rem 0 0;
+        justify-content: space-between;
+        align-items: normal;
+    }
+
+
+    .textoConferencia {
+        text-align: right;
+    }
+
+    .sectionOradores {
+        height: 100vh;
+    }
+
+    .padreCards {
+        width: initial;
+        height: 80%;
+        margin: 0 150px;
+        margin-bottom: 30px;
+        flex-direction: row;
+        align-items: normal;
+    }
+
+    .card {
+        width: 30%;
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .cardBody {
+        padding: 20px;
+    }
+
+
+    .imagenCard {
+        width: initial;
+    }
+
+    .contenedorLyG {
+        flex-direction: row;
+    }
+
+
+    .honolulu {
+        width: 50%;
+    }
+
+
+    .form {
+        margin: 0 0 1rem 0;
+    }
+
+    .footer {
+        height: 10vh;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+}
